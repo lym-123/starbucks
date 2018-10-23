@@ -1,0 +1,355 @@
+.container{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+.nav{
+	   position: relative;
+       width: 350px;
+       height: 630px;
+       float: left;
+       box-shadow: 0 1px 2px #ccc;/*设置边框阴影*/
+       z-index: 1;
+    }
+
+.nav-header{
+	width: 380px;
+	height: 50px;
+	padding:10px; 
+	margin-top: 20px;
+}
+
+.nav-header > .logo{
+	float: left;
+}
+
+.nav-header > .primary{
+	width: 285px;
+	height: 48px;
+	float: left;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.nav-header > .primary >ul > li{
+	float: left;
+	padding-right: 20px;
+}
+
+.nav-body{
+	width: 350px;
+	height: 533px;
+	position: absolute;
+}
+
+.nav-body > .entry > .display-1{
+	width: 222px;
+	height: 73px;
+	position: absolute;
+	top: 150px;
+	right: 40px;
+	bottom: 230px;
+	left: 40px;
+	text-align: center;
+}
+
+.nav-body > .entry > .display-2{
+	width: 222px;
+	height: 40px;
+	position: absolute;
+	top: 250px;
+	right: 40px;
+	bottom: 157px;
+	left: 40px;
+	text-align: center;
+	line-height: 37px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.line{
+	width:30px;
+	height:2px;
+	background-color:#1ab172;
+	margin:0 auto;
+}
+
+.content{
+          height: 600px;
+          background-color: #fff;
+          overflow-x:hidden;
+        }
+
+.content .zc-head{
+	width: 1000px;
+	height: 320px;
+	background-color: #f1efed;
+}    
+
+.content .zc-head .zc-head-1{
+	width: 720px;
+	height: 218px;
+	margin: 0 auto;
+	padding: 48px 24px;
+	background-color: #f1efed; 
+}
+
+h1{
+	letter-spacing: 0.4px;
+	margin-bottom: 30px;
+	font-weight: 400;
+	color: #000;
+}
+
+.content .zc-head .zc-head-1 .head-left{
+	width: 448px;
+	height: 218px;
+	padding-right: 48px;
+	line-height: 25px;
+}
+
+.head-left .buttom{
+	height: 25px;
+	border: 1px solid #1ab172;
+	border-radius: 1em;
+	padding: 5px 15px;
+	float: left;
+	display: inline;
+    line-height: 25px;
+    margin-right: 10px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.content .zc-head .zc-head-1 p{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.56);
+}
+
+.content .zc-head .zc-head-1 .image{
+    width: 200px;
+	height: 72px;
+	margin-top: -160px;
+	float: right;
+}
+
+.zc-footer{
+	width: 1000px;
+	height: 500px;
+	background-color: #fefefe;
+}
+
+.zc-footer .zck{
+	width: 432px;
+	height: 500px;
+	padding: 24px;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+}
+
+.zc-footer .zck .body{
+	width: 432px;
+	height: 235px;
+	display: block;
+	/*background-color: #b7e2f3;*/
+	position: relative;
+}
+
+.zc-footer .zck .register-box{
+	width: 384px;
+	height: 107px;
+	display: block;
+	padding: 12px 24px;
+	margin: 24px 0 0 0;
+	background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.separator{
+	width: 432px;
+	clear: both;
+	display: block;
+	margin-top: -80px;
+	border-color: #f7f7f7;
+}
+
+.zc-footer .zck body .number{
+	width: 432px;
+	height: 35px;
+	margin-bottom: 18px;
+	padding-top: 25px;
+	display: block;
+	position: relative;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+input{
+	width: 412px;
+	height: 30px;
+	display: block;
+	padding: 10px;
+	border: 1px;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.password-hide{
+	background: url("./font-awesome-4.7.0/icons/icon-hide-password.svg") no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	float: right;
+	margin-top: -40px;
+}
+
+.login{
+	height: 25px;
+	border: 1px solid #1ab172;
+	border-radius: 1em;
+	padding: 5px 15px;
+	float: left;
+	display: inline;
+    line-height: 25px;
+    margin-left: 280px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.text-box{
+	width: 432px;
+	height: 60px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #8b8b87;
+}
+
+.bottom{
+	width: 1000px;
+	height: 196px;
+	background-color: #f7f7f7;
+}
+
+.zc-text{
+	width: 432px;
+	height: 172px;
+	padding: 24px 24px 0px 24px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	position: relative;
+}
+
+.buttom02{
+	height: 25px;
+	border: 1px solid #1ab172;
+	border-radius: 1em;
+	padding: 5px 15px;
+	float: left;
+	display: inline;
+    line-height: 25px;
+    margin-left: 0;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.below{
+	width: 432px;
+	height: 45px;
+	/*background-color: pink;*/
+}
+
+.below-left{
+	width: 150px;
+	height: 35px;
+	float: left;
+	padding: 8px;
+}
+
+.below-right{
+	width: 150px;
+	height: 35px;
+	float: right;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.check{
+	width: 30px;
+	height: 30px;
+	background-color: teal;
+	float: left;
+}
+
+.next-box{
+    width: 100px;
+	height: 20px;
+	float: left;
+	padding: 5px;
+}
+
+.wrapper{
+	width: 432px;
+	height: 160px;
+	/*background-color: lightblue;*/
+	margin-top: 20px;
+}
+
+.yanzheng{
+	width: 300px;
+	height: 160px;
+	margin: 0 auto;
+	/*background-color: #e9e9df;*/
+}
+
+.yzm{
+	width: 300px;
+	height: 53px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+
+.yzm-left{
+	width: 128px;
+	height: 53px;
+	float: left;
+	margin-left:20px;
+	border: 1px solid #c8c3c3;
+}
+
+.yzm-right{
+	width: 128px;
+	height: 53px;
+	/*background-color: yellow;*/
+	float: right;
+	margin-right:20px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #c8c3c3;
+}
+
+.opArea{
+	width: 300px;
+	height: 53px;
+	margin-top: 10px;
+}
+
+.button03{
+	width: 100px;
+	height: 36px;
+	float: right;
+	margin-right: 20px;
+	background-color: #00a862;
+	border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 5px;
+	line-height: 34px;
+	font-size: 13px;
+	color: #ffffff;
+	display: inline-block;
+}
